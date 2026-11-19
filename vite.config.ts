@@ -6,6 +6,8 @@ import {defineConfig} from 'vite';
 
 export default defineConfig(() => {
   return {
+      base: '/LSV_lengua_de_se-as_venezolana/',
+
     plugins: [
       react(),
       tailwindcss(),
